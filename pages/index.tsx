@@ -37,8 +37,7 @@ for await (const req of s) {
               Deno
             </h1>
             <h2 className="mt-4 sm:mt-5 font-light text-2xl text-center leading-tight text-gray-900">
-              是一个 <strong class="font-semibold">安全的</strong>  <strong class="font-semibold">JavaScript</strong> 和 <strong class="font-semibold">TypeScript</strong> 运行时环境。
-            </h2>
+              <span>是一个</span> <strong class="font-semibold">安全的</strong>  <strong class="font-semibold">JavaScript</strong> <span>和</span> <strong class="font-semibold">TypeScript</strong> <span>运行时环境。</span></h2>
 
             <a
               href="https://github.com/denoland/deno/releases/latest"
