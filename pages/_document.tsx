@@ -29,6 +29,18 @@ export default class DenoDocDocument extends Document {
             href="/images/icons/apple-touch-icon-180x180.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XLJ6R162CX"></script>
+          <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+
+                      gtag('config', 'G-XLJ6R162CX');
+                  `,
+              }}
+            />
         </Head>
         <body>
           <Main />
